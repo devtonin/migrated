@@ -18,6 +18,7 @@
 		<spring-cloud.version>2021.0.4</spring-cloud.version>
 	</properties>
 	<dependencies>
+		<!-- Seller MS -->
 		<dependency>
 			<groupId>com.ifsuldeminas</groupId>
 			<artifactId>seller-ms</artifactId>
@@ -25,6 +26,17 @@
 			<scope>system</scope>
 			<systemPath>////home/antonioamaral/Documentos/Facul/tcc/migrated/seller-ms/target/seller-ms-0.0.1-SNAPSHOT.jar</systemPath>
 		</dependency>
+		<!-- - -->
+
+		<!-- Metrics MS -->
+		<dependency>
+			<groupId>com.ifsuldeminas</groupId>
+			<artifactId>metrics-ms</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>////home/antonioamaral/Documentos/Facul/tcc/migrated/metrics-ms/target/metrics-ms-0.0.1-SNAPSHOT.jar</systemPath>
+		</dependency>
+		<!-- - -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -48,7 +60,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+    </dependencies>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

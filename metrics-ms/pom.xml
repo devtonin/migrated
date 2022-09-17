@@ -41,12 +41,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-        <dependency>
-            <groupId>com.ifsuldeminas</groupId>
-            <artifactId>seller-ms</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+		<dependency>
+			<groupId>com.ifsuldeminas</groupId>
+			<artifactId>seller-ms</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>////home/antonioamaral/Documentos/Facul/tcc/migrated/seller-ms/target/seller-ms-0.0.1-SNAPSHOT.jar</systemPath>
+		</dependency>
     </dependencies>
 	<dependencyManagement>
 		<dependencies>
