@@ -29,3 +29,7 @@ Mmetrics-ms/src/main/java/com/ifsuldeminas/metricsms/MetricsMsApplication.java,
 Kmetrics-ms/src/main/java/com/ifsuldeminas/metricsms/dto/SaleSuccessDTO.java,f/e/fe7b37652582b3de7213da4aa5696fcdac41369c
 w
 Gmetrics-ms/src/main/java/com/ifsuldeminas/metricsms/dto/SaleSumDTO.java,5/1/51161bbbdc5a9815e546599a2a66233c560aafa1
+B
+metrics-ms/pom.xml,4/b/4bae390f837c205131d25beca5c4316083e511a6
+?
+sale-ms/pom.xml,9/f/9f177492cbcf13b270cf7cb59f4fce75d82477a6
