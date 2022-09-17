@@ -19,6 +19,13 @@
 	</properties>
 	<dependencies>
 		<dependency>
+			<groupId>com.ifsuldeminas</groupId>
+			<artifactId>seller-ms</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>////home/antonioamaral/Documentos/Facul/tcc/migrated/seller-ms/target/seller-ms-0.0.1-SNAPSHOT.jar</systemPath>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
