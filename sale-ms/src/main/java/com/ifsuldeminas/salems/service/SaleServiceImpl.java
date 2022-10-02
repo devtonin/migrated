@@ -3,12 +3,16 @@ package com.ifsuldeminas.salems.service;
 import com.ifsuldeminas.metricsms.dto.SaleSuccessDTO;
 import com.ifsuldeminas.metricsms.dto.SaleSumDTO;
 import com.ifsuldeminas.salems.dto.SaleDTO;
+import com.ifsuldeminas.salems.entities.Sale;
 import com.ifsuldeminas.salems.repository.SaleRepository;
 import com.ifsuldeminas.sellerms.repository.SellerRepository;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.RestTemplate;
 
 @Service
@@ -24,9 +28,11 @@ public class SaleServiceImpl implements SaleService {
 	@Autowired
 	private SellerRepository sellerRepository;
 
-	@HystrixCommand(fallbackMethod = "defaultSale")
-	public SaleDTO findAll() {
-		return restTemplate.getForObject("http://seller-ms/sellers", SaleDTO.class);
+	@Transactional(readOnly = true)
+	public Page<SaleDTO> findAll(Pageable pageable) {
+		sellerRepository.findAll();
+		Page<Sale> result = repository.findAll(pageable);
+		return result.map(SaleDTO::new);
 	}
 
 	@HystrixCommand(fallbackMethod = "defaultSum")
