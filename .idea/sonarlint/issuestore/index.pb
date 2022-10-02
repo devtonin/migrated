@@ -15,14 +15,10 @@ A
 seller-ms/pom.xml,8/a/8ab9108c97e43ff96d1054230bcf9c83d5686190
 t
 Dseller-ms/src/main/java/com/ifsuldeminas/sellerms/dto/SellerDTO.java,1/5/1509f9057a0d4bfb1a2d5908c65c25b43cf5a5c9
-‚
-Rseller-ms/src/main/java/com/ifsuldeminas/sellerms/repository/SellerRepository.java,6/3/63f0ed87ffc46af058219b125d0a28bf78812bd3
 p
 @sale-ms/src/main/java/com/ifsuldeminas/salems/entities/Sale.java,d/8/d8b28c016a66f60c7cfbdbfad349aa6d704e1e57
 n
 >sale-ms/src/main/java/com/ifsuldeminas/salems/dto/SaleDTO.java,2/f/2f63bc7a24dcb479ce79f2bf25f3bddbcb8de9e9
-|
-Lseller-ms/src/main/java/com/ifsuldeminas/sellerms/service/SellerService.java,9/a/9a791373305a4bd987284c80f452214e89c46e14
 }
 Mmetrics-ms/src/main/java/com/ifsuldeminas/metricsms/MetricsMsApplication.java,0/2/022a85b759acdb655d5d1f673b8ca16df1cda8a5
 {
@@ -31,5 +27,3 @@ w
 Gmetrics-ms/src/main/java/com/ifsuldeminas/metricsms/dto/SaleSumDTO.java,5/1/51161bbbdc5a9815e546599a2a66233c560aafa1
 B
 metrics-ms/pom.xml,4/b/4bae390f837c205131d25beca5c4316083e511a6
-?
-sale-ms/pom.xml,9/f/9f177492cbcf13b270cf7cb59f4fce75d82477a6
