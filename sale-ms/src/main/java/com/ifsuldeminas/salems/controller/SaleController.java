@@ -1,10 +1,10 @@
 package com.ifsuldeminas.salems.controller;
 
+import com.ifsuldeminas.metricsms.dto.SaleSuccessDTO;
+import com.ifsuldeminas.metricsms.dto.SaleSumDTO;
 import com.ifsuldeminas.salems.dto.SaleDTO;
 import com.ifsuldeminas.salems.service.SaleService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,8 +18,20 @@ public class SaleController {
 	private SaleService service;
 
 	@GetMapping
-	public ResponseEntity<Page<SaleDTO>> findAll(Pageable pageable) {
-		Page<SaleDTO> list = service.findAll(pageable);
+	public ResponseEntity<SaleDTO> findAll() {
+		SaleDTO list = service.findAll();
+		return ResponseEntity.ok(list);
+	}
+
+	@GetMapping
+	public ResponseEntity<SaleSumDTO> findAmountGroupedBySeller() {
+		SaleSumDTO list = service.findAmountGroupedBySeller();
+		return ResponseEntity.ok(list);
+	}
+
+	@GetMapping
+	public ResponseEntity<SaleSuccessDTO> findSuccessGroupedBySeller() {
+		SaleSuccessDTO list = service.findSuccessGroupedBySeller();
 		return ResponseEntity.ok(list);
 	}
 

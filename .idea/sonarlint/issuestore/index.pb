@@ -9,16 +9,10 @@ v
 Fseller-ms/src/main/java/com/ifsuldeminas/sellerms/entities/Seller.java,3/8/38f825c82f158c252740a10a7966b55a6ed33f58
 z
 Jseller-ms/src/main/java/com/ifsuldeminas/sellerms/SellerMsApplication.java,f/c/fc18d280c5dc3469f07ed2dd97c1efb71de49d3f
-‚
-Rseller-ms/src/main/java/com/ifsuldeminas/sellerms/controller/SellerController.java,e/0/e05987503bec2574154bfa0536471989bfad7157
 A
 seller-ms/pom.xml,8/a/8ab9108c97e43ff96d1054230bcf9c83d5686190
-t
-Dseller-ms/src/main/java/com/ifsuldeminas/sellerms/dto/SellerDTO.java,1/5/1509f9057a0d4bfb1a2d5908c65c25b43cf5a5c9
 p
 @sale-ms/src/main/java/com/ifsuldeminas/salems/entities/Sale.java,d/8/d8b28c016a66f60c7cfbdbfad349aa6d704e1e57
-n
->sale-ms/src/main/java/com/ifsuldeminas/salems/dto/SaleDTO.java,2/f/2f63bc7a24dcb479ce79f2bf25f3bddbcb8de9e9
 }
 Mmetrics-ms/src/main/java/com/ifsuldeminas/metricsms/MetricsMsApplication.java,0/2/022a85b759acdb655d5d1f673b8ca16df1cda8a5
 {
