@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frontend/frontend.iml" filepath="$PROJECT_DIR$/frontend/frontend.iml" />
       <module fileurl="file://$PROJECT_DIR$/metrics-ms/metrics-ms.iml" filepath="$PROJECT_DIR$/metrics-ms/metrics-ms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/migrated.iml" filepath="$PROJECT_DIR$/.idea/migrated.iml" />
       <module fileurl="file://$PROJECT_DIR$/sale-ms/sale-ms.iml" filepath="$PROJECT_DIR$/sale-ms/sale-ms.iml" />
