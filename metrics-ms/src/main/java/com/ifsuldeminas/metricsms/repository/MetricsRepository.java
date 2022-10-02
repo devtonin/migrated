@@ -7,7 +7,6 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-// TODO: 17/09/2022 investigar se precisa alguma chamada pra outro ms aqui ou nessa service 
 public interface MetricsRepository extends JpaRepository<Sale, Long> {
 
 	@Query("SELECT new ifsuldeminas.metricsms.dto.SaleSumDto(obj.seller, SUM(obj.amount)) "
