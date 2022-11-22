@@ -8,21 +8,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="seller-ms" />
         <module name="metrics-ms" />
+        <module name="monolith" />
         <module name="eureka-server" />
         <module name="sale-ms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="11" />
       <module name="eureka-server" target="11" />
       <module name="metrics-ms" target="11" />
+      <module name="monolith" target="11" />
       <module name="sale-ms" target="11" />
       <module name="seller-ms" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="metrics-ms" options="-parameters" />
+      <module name="monolith" options="-parameters" />
       <module name="sale-ms" options="-parameters" />
       <module name="seller-ms" options="-parameters" />
     </option>
