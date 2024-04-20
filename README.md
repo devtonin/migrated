@@ -9,7 +9,7 @@
 ![app-ms](app-ms.png)
 
 ## Diagrama de sequência:
-![diagrama-sequencia](sequence-diagram.png)
+![diagrama-sequencia](diagrama-sequencia.png)
 
 ### Dashboard principal (SPA ReactJS):
 ![dashboard](dashboard.png)
